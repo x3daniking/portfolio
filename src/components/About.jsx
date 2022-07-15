@@ -17,7 +17,7 @@ const About = () => {
             <p>Hi. I'm Adnan, a MERN Stack Developer!</p>
           </div>
           <div>
-            <p>Graduated from Comsats in computer sciences, i've worked with Data Science, Web Development both at Frontend and Backend, with version control such as Git. But my main expertise lie as a MERN Stack Developer. I have expertise in building pixel perfect UI with React.js, making API calls from the frontend, working with databases mainly MongoDB, handling backend using Express.js, a framework of Node.js.</p>
+            <p>I've done my Bachelors in Computer Sciences from Comsats. I've worked with Frontend technologies from HTML to CSS, Tailwind CSS, React.js and Next.js. I've built custom components, worked with API integration, state management libraries such as Redux or built in Context API and React-router as well. On the backend side, i've worked with creating API's using Express and Node.js, integrating databases using Mongoose.</p>
           </div>
         </div>
       </div>

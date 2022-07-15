@@ -11,10 +11,10 @@ const Home = () => {
           Muhammad Adnan
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I'm a React.js developer
+          I'm a MERN Stack developer
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a frontend developer specialised in React.js inspired to become a MERN stack developer. I specialise in designing fully responsive websites. I have worked with Next.js as well as state management tools such as Redux and Context API.
+          I’ve worked with frontend technologies such as HTML, CSS, Tailwind CSS, React.js and Next.js. On the backend, i've worked with Node.js, Express.js and MongoDB. I've experience with version control Git and various other applications as well.
         </p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
