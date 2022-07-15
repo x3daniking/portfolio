@@ -11,15 +11,15 @@ const About = () => {
             </p>
           </div>
           <div></div>
+        </div>
+        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+          <div className='sm:text-right text-4xl font-bold'>
+            <p>Hi. I'm Adnan, a MERN Stack Developer!</p>
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Adnan, a React.js Developer!</p>
-            </div>
-            <div>
-              <p>I am passionate individual graduated from Comsats having hands on expereince with frontend development technologies. I have worked with Html, CSS, JavaScript, React.js and Next.js. Moreover, I have worked with Tailwind CSS. I also have experience in state management tools such as Redux and Context API.</p>  
-            </div>
+          <div>
+            <p>Graduated from Comsats in computer sciences, i've worked with Data Science, Web Development both at Frontend and Backend, with version control such as Git. But my main expertise lie as a MERN Stack Developer. I have expertise in building pixel perfect UI with React.js, making API calls from the frontend, working with databases mainly MongoDB, handling backend using Express.js, a framework of Node.js.</p>
           </div>
+        </div>
       </div>
     </div>
   );
