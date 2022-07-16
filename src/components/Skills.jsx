@@ -38,24 +38,24 @@ const Skills = () => {
                         <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
                         <p className='my-4'>Tailwind CSS</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center'>
                         <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
-                        <p className='my-4'>REACT Js</p>
+                        <p className='my-4'>REACT</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center'>
+                        <img className='w-24 mx-auto' src={NextImg} alt="HTML icon" />
+                        <p className='my-4'>NEXT</p>
+                    </div>
+                    <div className='relative shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center'>
+                        <img className='w-28 h-auto mx-auto text-center pb-8' src={NodeImg} alt="HTML icon" />
+                        <p className='my-4 absolute bottom-2 right-0 left-0'>NODE</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center items-center'>
+                        <img className='w-28 mx-auto text-center' src={ExpressImg} alt="HTML icon" />
+                        <p className='my-4'>EXPRESS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-end items-center'>
-                        <img className='w-20 mx-auto text-center' src={NextImg} alt="HTML icon" />
-                        <p className='my-4'>NEXT Js</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-end items-center'>
-                        <img className='w-20 mx-auto text-center' src={NodeImg} alt="HTML icon" />
-                        <p className='my-4'>Node Js</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-end items-center'>
-                        <img className='w-20 mx-auto text-center' src={ExpressImg} alt="HTML icon" />
-                        <p className='my-4'>Express Js</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-end items-center'>
-                        <img className='w-20 mx-auto text-center' src={MongoImg} alt="HTML icon" />
+                        <img className='w-36 mx-auto text-center' src={MongoImg} alt="HTML icon" />
                         <p className='my-4'>MongoDB</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
