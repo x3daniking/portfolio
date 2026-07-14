@@ -75,7 +75,7 @@ function Nav() {
     <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-inner">
         <a href="#top" className="brand" onClick={close}>
-          <span className="brand-mark">MA</span>
+          <img className="brand-mark" src="/images/profile.jpg" alt="Muhammad Adnan" />
           Muhammad Adnan
         </a>
         <button
