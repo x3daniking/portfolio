@@ -6,7 +6,7 @@ const asset = (p) => BASE + p
 
 const UPWORK = 'https://www.upwork.com/freelancers/~019bfcdb4c3cae2292'
 const GITHUB = 'https://github.com/x3daniking'
-const EMAIL = 'malikadnan655@gmail.com'
+const EMAIL = 'mk.adnan655@gmail.com'
 const PHONE = '+92 304 5733047'
 
 /* When embedded in an iframe (preview tooling), IntersectionObserver is often
@@ -114,7 +114,7 @@ function Hero() {
         <Reveal>
           <div className="hero-kicker">
             <span className="dash"></span>
-            FULL-STACK DEVELOPER
+            FULLSTACK ENGINEER
           </div>
         </Reveal>
         <Reveal delay={80}>
@@ -144,7 +144,7 @@ function Hero() {
             <a href={UPWORK} target="_blank" rel="noreferrer">↗ Upwork</a>
             <a href={GITHUB} target="_blank" rel="noreferrer">github.com/x3daniking</a>
             <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
-            <span>Islamabad, PK</span>
+            <span>Lahore, Punjab, PK</span>
           </div>
         </Reveal>
       </div>
@@ -169,7 +169,7 @@ function About() {
             </Reveal>
             <Reveal delay={120}>
               <p>
-                I'm a full-stack developer with 6+ years building scalable web
+                I'm a fullstack engineer with 5+ years building scalable web
                 applications, microservices, and cross-platform mobile apps. I work
                 comfortably from the pixel to the production cluster — MEAN/MERN
                 frontends, Node &amp; NestJS backends, AI-powered features, and AWS
@@ -186,7 +186,7 @@ function About() {
           <Reveal delay={120}>
             <div className="stat-grid">
               <div className="stat">
-                <div className="num">6+</div>
+                <div className="num">5+</div>
                 <div className="lbl">Years of production experience</div>
               </div>
               <div className="stat">
@@ -228,7 +228,7 @@ function Capabilities() {
         <Reveal delay={60}><h2 className="h2">What I build for clients</h2></Reveal>
         <Reveal delay={120}>
           <p className="lead" style={{ marginBottom: 44 }}>
-            One developer covering every layer — so your product ships faster, stays
+            One engineer covering every layer — so your product ships faster, stays
             consistent, and scales cleanly.
           </p>
         </Reveal>
@@ -456,7 +456,7 @@ function Mobile() {
 /* Why me                                                            */
 /* ----------------------------------------------------------------- */
 const WHY = [
-  { n: '01', t: 'One developer, the whole stack', d: 'From UI to database to deployment — no coordination overhead, no gaps between specialists.' },
+  { n: '01', t: 'One engineer, the whole stack', d: 'From UI to database to deployment — no coordination overhead, no gaps between specialists.' },
   { n: '02', t: 'Built to scale', d: 'Production systems serving thousands of concurrent users — clustering, caching and auto-scaling done right.' },
   { n: '03', t: 'AI-native delivery', d: 'Modern RAG and LLM integrations (OpenAI, Gemini) built into real products, not bolted on.' },
   { n: '04', t: 'Clear communication', d: 'Professional English, agile workflow, and regular updates so you always know where things stand.', dark: true },
@@ -529,7 +529,7 @@ function Contact() {
                 </a>
                 <div className="contact-link">
                   <span className="k">PHONE · LOCATION</span>
-                  <span className="v">{PHONE} · Islamabad, PK</span>
+                  <span className="v">{PHONE} · Lahore, Punjab, PK</span>
                 </div>
               </div>
             </Reveal>
@@ -564,7 +564,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-inner">
-        <span>© {new Date().getFullYear()} MUHAMMAD ADNAN — FULL-STACK DEVELOPER</span>
+        <span>© {new Date().getFullYear()} MUHAMMAD ADNAN — FULLSTACK ENGINEER</span>
         <span>
           <a href={UPWORK} target="_blank" rel="noreferrer">UPWORK</a>
           {'  ·  '}
